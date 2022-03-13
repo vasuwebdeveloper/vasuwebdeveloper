@@ -20,7 +20,7 @@ Hi, I'm [Vasu](https://vasuwebdev.me/), a Full stack web developer & NetSuite Ap
 
 ```javascript
 const vasu = {
-  pronouns: "he" | "his",
+  pronouns: "he" | "him",
   code: [NetSuite, Suitescript, Javascript, Typescript, Node JS, Backbone JS, GraphQL],
   tools: [Visual studio, Github, Sourcetree, Jest],
   architecture: ["microservices", "event-driven", "design system pattern"],
