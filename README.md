@@ -4,11 +4,9 @@
   <img align="left" alt="Vasu's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
 </a>
 
-![](https://visitor-badge.glitch.me/badge?page_id=abhisheknaiidu.abhisheknaiidu)
-
 <br />
 
-Hi, I'm [Vasu](https://abhishknads.me/), a Full stack web developer & NetSuite Application Engineer from Hyderabad, India. A well-versed NetSuite professional who's passionate about developing websites and doing incredible things with the cloud. Crazy about web performance and system design.
+Hi, I'm [Vasu](https://vasuwebdev.me/), a Full stack web developer & NetSuite Application Engineer from Hyderabad, India. A well-versed NetSuite professional who's passionate about developing websites and doing incredible things with the cloud. Crazy about web performance and system design.
 
 
 
