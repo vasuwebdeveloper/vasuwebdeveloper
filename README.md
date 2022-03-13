@@ -13,7 +13,7 @@ Hi, I'm [Vasu](https://vasuwebdev.me/), a Full stack web developer & NetSuite Ap
 
 
 
-  <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
+  <img align="right" alt="GIF" src="https://github.com/vasuwebdeveloper/vasuwebdeveloper/blob/main/code.gif?raw=true" width="500" height="320" />
   
 - 💼 any queries? do reach, [email](mailto:kasipurivasu@gmail.com) :)
 - 💬 ask me about anything, i am happy to help;
