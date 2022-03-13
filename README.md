@@ -22,7 +22,7 @@ Hi, I'm [Vasu](https://vasuwebdev.me/), a Full stack web developer & NetSuite Ap
 const vasu = {
   pronouns: "he" | "him",
   code: [NetSuite, Suitescript, Javascript, Typescript, Node JS, Backbone JS, GraphQL],
-  tools: [Visual studio, Github, Sourcetree, Jest],
+  tools: [Visual Studio, Github, Sourcetree, Jest],
   architecture: ["microservices", "event-driven", "design system pattern"],
   challenge: "I am doing the #100DaysOfCode challenge focused on react and typescript"
 }
