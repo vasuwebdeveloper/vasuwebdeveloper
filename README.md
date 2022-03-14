@@ -30,7 +30,8 @@ const vasu = {
   pronouns: "he" | "him",
   code: [NetSuite, Suitescript, Javascript, Typescript, Node JS, Backbone JS, GraphQL],
   tools: [Visual Studio, Github, Sourcetree, Jest],
-  architecture: ["Single page applications", "event-driven", "System Design pattern"],
+  architecture: ["Single page applications", "Progressive web applications", "System Design pattern"],
+  funFact: "There are two ways to write error-free programs; only the third one works"
 }
 ```
 
