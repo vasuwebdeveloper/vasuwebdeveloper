@@ -14,6 +14,8 @@
 
 ---
 
+<img align="right" alt="3D AI animation" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="360" />
+
 Hi, I'm **Vasu**, an **AI & Agentic AI Engineer** from Hyderabad, India. I build intelligent, autonomous systems powered by Large Language Models — from RAG pipelines and tool-using agents to full multi-agent workflows. Obsessed with making AI agents that actually **reason, plan, and get things done** in production.
 
 - 🤖 currently building: autonomous AI agents & multi-agent systems
@@ -21,7 +23,11 @@ Hi, I'm **Vasu**, an **AI & Agentic AI Engineer** from Hyderabad, India. I build
 - 💼 any queries? do reach, [email](mailto:kasipurivasu@gmail.com) :)
 - 💬 ask me anything about AI, agents, or LLMs — happy to help;
 
+<br clear="both" />
+
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...
+
+<img align="right" alt="Multi-Agent AI System" src="./multi-agent.svg" width="420" />
 
 ```python
 class Vasu:
@@ -74,6 +80,8 @@ class Vasu:
         "I don't have to... 🤖"
     )
 ```
+
+<br clear="both" />
 
 ## 🛠️ Tech Stack
 
