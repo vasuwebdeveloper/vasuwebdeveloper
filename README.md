@@ -27,8 +27,10 @@ Hi, I'm **Vasu**, an **AI & Agentic AI Engineer** from Hyderabad, India. I build
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...
 
-<img align="right" alt="Multi-Agent AI System" src="./multi-agent_1.svg" width="420" />
-<img align="right" alt="The Agent Squad" src="./agent-squad.svg" width="420" />
+<table align="right" border="0">
+  <tr><td><img alt="Multi-Agent AI System" src="./multi-agent_1.svg" width="400" /></td></tr>
+  <tr><td><img alt="The Agent Squad" src="./agent-squad.svg" width="400" /></td></tr>
+</table>
 
 ```python
 class Vasu:
