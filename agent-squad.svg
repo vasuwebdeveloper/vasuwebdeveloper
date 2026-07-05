@@ -1,0 +1,151 @@
+<svg width="420" height="400" viewBox="0 0 420 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg2" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#1a1f2e"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </radialGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7d8590"/>
+    </marker>
+  </defs>
+
+  <!-- background card -->
+  <rect width="420" height="400" rx="16" fill="url(#bg2)"/>
+  <rect x="1" y="1" width="418" height="398" rx="15" fill="none" stroke="#2a3040" stroke-width="1.5"/>
+
+  <!-- title -->
+  <text x="210" y="30" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="15" font-weight="700" fill="#e6edf3">🎧 The Agent Squad</text>
+
+  <!-- ============ ORCHESTRATOR ============ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="2.6s" repeatCount="indefinite"/>
+    <!-- headphone band -->
+    <path d="M 180 82 A 30 30 0 0 1 240 82" fill="none" stroke="#e6edf3" stroke-width="6" stroke-linecap="round"/>
+    <!-- ear pads -->
+    <rect x="172" y="76" width="12" height="22" rx="6" fill="#e6edf3"/>
+    <rect x="236" y="76" width="12" height="22" rx="6" fill="#e6edf3"/>
+    <!-- head -->
+    <circle cx="210" cy="88" r="27" fill="#ffe8d1" stroke="#0d1117" stroke-width="2.5"/>
+    <!-- eyes (blinking) -->
+    <ellipse cx="200" cy="86" rx="3.4" ry="3.4" fill="#161b22">
+      <animate attributeName="ry" values="3.4;3.4;0.4;3.4" keyTimes="0;0.9;0.95;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="220" cy="86" rx="3.4" ry="3.4" fill="#161b22">
+      <animate attributeName="ry" values="3.4;3.4;0.4;3.4" keyTimes="0;0.9;0.95;1" dur="4s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- smile -->
+    <path d="M 203 96 Q 210 102 217 96" fill="none" stroke="#161b22" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- body -->
+    <rect x="176" y="112" width="68" height="52" rx="22" fill="#f2c98a" stroke="#0d1117" stroke-width="2.5"/>
+    <text x="210" y="143" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="8.5" font-weight="800" fill="#3d2b1f">ORCHESTRATOR</text>
+    <!-- feet -->
+    <ellipse cx="196" cy="167" rx="9" ry="6" fill="#f2c98a" stroke="#0d1117" stroke-width="2.5"/>
+    <ellipse cx="224" cy="167" rx="9" ry="6" fill="#f2c98a" stroke="#0d1117" stroke-width="2.5"/>
+  </g>
+
+  <!-- ============ ARROWS ============ -->
+  <g stroke="#7d8590" stroke-width="2.2" fill="none" marker-end="url(#arrow)">
+    <path d="M 168 130 Q 100 150 62 218">
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 184 168 Q 155 190 138 218">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 210 172 L 210 218">
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 236 168 Q 265 190 282 218">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 252 130 Q 320 150 358 218">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- ============ AGENT: LOGS (yellow file) ============ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -5; 0 0" dur="2.2s" repeatCount="indefinite"/>
+    <path d="M 34 232 L 74 232 L 88 246 L 88 330 Q 88 340 78 340 L 44 340 Q 34 340 34 330 Z" fill="#f5c542" stroke="#0d1117" stroke-width="2.5"/>
+    <path d="M 74 232 L 74 246 L 88 246 Z" fill="#d9a520" stroke="#0d1117" stroke-width="2.5"/>
+    <ellipse cx="53" cy="268" rx="3.2" ry="3.2" fill="#161b22">
+      <animate attributeName="ry" values="3.2;3.2;0.3;3.2" keyTimes="0;0.85;0.92;1" dur="3.6s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="70" cy="268" rx="3.2" ry="3.2" fill="#161b22">
+      <animate attributeName="ry" values="3.2;3.2;0.3;3.2" keyTimes="0;0.85;0.92;1" dur="3.6s" repeatCount="indefinite"/>
+    </ellipse>
+    <path d="M 56 278 Q 61 283 66 278" fill="none" stroke="#161b22" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="61" y="316" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="800" fill="#3d2b1f">LOGS</text>
+  </g>
+
+  <!-- ============ AGENT: JIRA ============ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -5; 0 0" dur="2.5s" repeatCount="indefinite"/>
+    <circle cx="136" cy="252" r="21" fill="#ffe3c9" stroke="#0d1117" stroke-width="2.5"/>
+    <path d="M 116 246 A 21 21 0 0 1 156 246 Q 146 236 136 238 Q 126 236 116 246" fill="#2b3a55" stroke="#0d1117" stroke-width="2"/>
+    <ellipse cx="129" cy="254" rx="3" ry="3" fill="#161b22">
+      <animate attributeName="ry" values="3;3;0.3;3" keyTimes="0;0.88;0.94;1" dur="4.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="143" cy="254" rx="3" ry="3" fill="#161b22">
+      <animate attributeName="ry" values="3;3;0.3;3" keyTimes="0;0.88;0.94;1" dur="4.4s" repeatCount="indefinite"/>
+    </ellipse>
+    <path d="M 131 262 Q 136 266 141 262" fill="none" stroke="#161b22" stroke-width="2.2" stroke-linecap="round"/>
+    <rect x="110" y="272" width="52" height="46" rx="16" fill="#e8ecf1" stroke="#0d1117" stroke-width="2.5"/>
+    <text x="136" y="300" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="800" fill="#2b3a55">JIRA</text>
+    <ellipse cx="126" cy="322" rx="7" ry="5" fill="#2b3a55" stroke="#0d1117" stroke-width="2.5"/>
+    <ellipse cx="146" cy="322" rx="7" ry="5" fill="#2b3a55" stroke="#0d1117" stroke-width="2.5"/>
+  </g>
+
+  <!-- ============ AGENT: CODER ============ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -5; 0 0" dur="2s" repeatCount="indefinite"/>
+    <circle cx="210" cy="252" r="21" fill="#ffe3c9" stroke="#0d1117" stroke-width="2.5"/>
+    <path d="M 190 248 A 21 21 0 0 1 230 246 Q 224 234 210 236 Q 196 234 190 248" fill="#4a3426" stroke="#0d1117" stroke-width="2"/>
+    <ellipse cx="203" cy="254" rx="3" ry="3" fill="#161b22">
+      <animate attributeName="ry" values="3;3;0.3;3" keyTimes="0;0.82;0.9;1" dur="3.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="217" cy="254" rx="3" ry="3" fill="#161b22">
+      <animate attributeName="ry" values="3;3;0.3;3" keyTimes="0;0.82;0.9;1" dur="3.8s" repeatCount="indefinite"/>
+    </ellipse>
+    <path d="M 205 262 Q 210 266 215 262" fill="none" stroke="#161b22" stroke-width="2.2" stroke-linecap="round"/>
+    <rect x="184" y="272" width="52" height="46" rx="16" fill="#21262d" stroke="#0d1117" stroke-width="2.5"/>
+    <text x="210" y="300" text-anchor="middle" font-family="Consolas, monospace" font-size="13" font-weight="800" fill="#e6edf3">&lt;/&gt;</text>
+    <ellipse cx="200" cy="322" rx="7" ry="5" fill="#21262d" stroke="#0d1117" stroke-width="2.5"/>
+    <ellipse cx="220" cy="322" rx="7" ry="5" fill="#21262d" stroke="#0d1117" stroke-width="2.5"/>
+  </g>
+
+  <!-- ============ AGENT: URGENT ISSUE ============ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="1.4s" repeatCount="indefinite"/>
+    <path d="M 284 230 L 312 276 L 256 276 Z" fill="#e5534b" stroke="#0d1117" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 284 240 L 305 274 L 263 274 Z" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="284" y="270" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="16" font-weight="900" fill="#fff">!</text>
+    <rect x="258" y="278" width="52" height="42" rx="14" fill="#e5534b" stroke="#0d1117" stroke-width="2.5"/>
+    <text x="284" y="295" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="8.5" font-weight="800" fill="#fff">URGENT</text>
+    <text x="284" y="306" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="8.5" font-weight="800" fill="#fff">ISSUE</text>
+    <ellipse cx="274" cy="324" rx="7" ry="5" fill="#e5534b" stroke="#0d1117" stroke-width="2.5"/>
+    <ellipse cx="294" cy="324" rx="7" ry="5" fill="#e5534b" stroke="#0d1117" stroke-width="2.5"/>
+  </g>
+
+  <!-- ============ AGENT: DATABASE ============ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -5; 0 0" dur="2.8s" repeatCount="indefinite"/>
+    <circle cx="360" cy="252" r="21" fill="#ffe3c9" stroke="#0d1117" stroke-width="2.5"/>
+    <path d="M 340 246 A 21 21 0 0 1 380 246 Q 370 235 360 237 Q 350 235 340 246" fill="#1f2a3d" stroke="#0d1117" stroke-width="2"/>
+    <ellipse cx="353" cy="254" rx="3" ry="3" fill="#161b22">
+      <animate attributeName="ry" values="3;3;0.3;3" keyTimes="0;0.86;0.93;1" dur="4.1s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="367" cy="254" rx="3" ry="3" fill="#161b22">
+      <animate attributeName="ry" values="3;3;0.3;3" keyTimes="0;0.86;0.93;1" dur="4.1s" repeatCount="indefinite"/>
+    </ellipse>
+    <path d="M 355 262 Q 360 266 365 262" fill="none" stroke="#161b22" stroke-width="2.2" stroke-linecap="round"/>
+    <!-- cylinder body -->
+    <path d="M 334 282 L 334 312 Q 334 320 360 320 Q 386 320 386 312 L 386 282" fill="#4a7fd4" stroke="#0d1117" stroke-width="2.5"/>
+    <ellipse cx="360" cy="282" rx="26" ry="9" fill="#5b90e5" stroke="#0d1117" stroke-width="2.5"/>
+    <text x="360" y="308" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="7.8" font-weight="800" fill="#fff">DATABASE</text>
+    <ellipse cx="350" cy="324" rx="7" ry="5" fill="#4a7fd4" stroke="#0d1117" stroke-width="2.5"/>
+    <ellipse cx="370" cy="324" rx="7" ry="5" fill="#4a7fd4" stroke="#0d1117" stroke-width="2.5"/>
+  </g>
+
+  <!-- footer -->
+  <text x="210" y="378" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#7d8590">orchestrator.delegate(task) → squad.solve()</text>
+</svg>
